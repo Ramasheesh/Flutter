@@ -5,9 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Dart: Run all Tests",
+            "type": "dart",
+            "request": "launch",
+            "program": "./test/"
+        },
+        {
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart"
         }
-    ]
+    ],
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "[Flutter]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        }
+        
 }
