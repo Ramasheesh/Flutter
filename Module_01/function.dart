@@ -7,7 +7,7 @@ void main() {
   }
 
   // functions can be assigned to variables
-  int sum = add(2, 3); // returns: 5
+  add(2, 3); // returns: 5
 
   // can be passed as arguments to other functions
   int totalSum = add(2, add(2, 3)); // returns : 7
